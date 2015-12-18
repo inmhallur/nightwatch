@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="walmartLogin"
+    errors="1" failures="1" hostname="" id="" package="walmartLogin" skipped="0"
+    tests="2" time="0.000" timestamp="Wed, 09 Dec 2015 05:40:53 GMT">
+  
+    <testcase name="demo test walmart" time="4.418" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;href&quot; using: css selector
+      </system-err>
+  
+    <testcase name="part two" time="28.24" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;href&gt; contains text: &quot;/ip/SCEPTRE-X322BV-HDR-32-LED-Class-720P-HDTV-with-ultra-slim-metal-brush-bezel-60Hz/25059351&quot;. Element could not be located.">    at Object.module.exports.part two (/usr/local/lib/node_modules/nightwatch/tests/walmartLogin.js:25:15)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at doNTCallback0 (node.js:428:9)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;href&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
