@@ -1,4 +1,4 @@
-var data  = require('/usr/local/lib/node_modules/nightwatch/globals.js');
+var data  = require('../globals.js');
 module.exports = {
   'demo test walmart' : function (client) {
     

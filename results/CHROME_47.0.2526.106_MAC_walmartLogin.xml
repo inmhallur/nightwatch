@@ -1,63 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="6">
 
   <testsuite name="walmartLogin"
-    errors="0" failures="0" hostname="" id="" package="walmartLogin" skipped="0"
-    tests="6" time="0.000" timestamp="Sat, 19 Dec 2015 04:46:26 GMT">
+    errors="0" failures="1" hostname="" id="" package="walmartLogin" skipped="1"
+    tests="6" time="0.000" timestamp="Sat, 19 Dec 2015 06:35:41 GMT">
   
-    <testcase name="demo test walmart" time="5.753" assertions="1">
+    <testcase name="demo test walmart" time="7.191" assertions="1">
 
     
     </testcase>
   
-    <testcase name="part two" time="55.37" assertions="8">
+    <testcase name="part two" time="63.15" assertions="8">
 
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="part three" time="123.4" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="part four" time="37.60" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="part five" time="39.57" assertions="7">
 
     
 
@@ -74,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="part six" time="35.77" assertions="5">
+    <testcase name="part three" time="34.21" assertions="5">
 
     
 
@@ -87,6 +44,46 @@
     
     </testcase>
   
+    <testcase name="part four" time="190.4" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="part five" time="26.37" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//*[@id=&quot;PACViewCartBtn&quot;]&gt; is present.">    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/tests/walmartLogin.js:141:23)
+    at F.WaitForElement.complete (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_waitForElement.js:181:11)
+    at F.WaitForElement.pass (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_waitForElement.js:189:15)
+    at F.WaitForElementVisible.elementVisible (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/waitForElementVisible.js:50:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_waitForElement.js:239:19)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:351:15)
+    at emitThree (events.js:97:13)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="part six">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
