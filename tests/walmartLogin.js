@@ -38,21 +38,29 @@ module.exports = {
       .useXpath()
       .click('//*[@id="tile-container"]/div[1]/div/div/h4/a')
       .pause(5000)
-      .assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
-      .click('//*[@id="WMItemAddToCartBtn"]')
-      .pause(5000)
-      .assert.elementPresent('//*[@id="PACViewCartBtn"]')
-      .click('//*[@id="PACViewCartBtn"]')
-      .pause(2000)
-      .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
-      .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
-      .assert.elementPresent('//*[@id="CartItemInfo"]')
-      .pause(2000)
-
+      //.assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
+      client.waitForElementVisible(addToCart, 2000, false, function (result) {
+      if (result.value) {
+        console.log("Element present in stock")
+        client.click('//*[@id="WMItemAddToCartBtn"]')
+              .pause(5000)
+              .assert.elementPresent('//*[@id="PACViewCartBtn"]')
+              .click('//*[@id="PACViewCartBtn"]')
+              .pause(2000)
+              .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
+              .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
+              .assert.elementPresent('//*[@id="CartItemInfo"]')
+              .pause(2000)
+      }else{
+        console.log("Element not present in stock")
+      }
+    });   
   },
+  
 
   'part three': function(client) {
     var socksLink = '//*[@id="tile-container"]/ul/li[5]/div/a[1]/img';
+    var addToCartBtn = '//*[@id="WMItemAddToCartBtn"]';
     client
       .useCss()
       .setValue('input[type=text]',[data.keywords.socks,client.Keys.ENTER])
@@ -60,16 +68,23 @@ module.exports = {
       .useXpath()
       .click(socksLink)
       .pause(2000)
-      .assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
-      .click('//*[@id="WMItemAddToCartBtn"]')
-      .pause(5000)
-      .assert.elementPresent('//*[@id="PACViewCartBtn"]')
-      .click('//*[@id="PACViewCartBtn"]')
-      .pause(2000)
-      .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
-      .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
-      .assert.elementPresent('//*[@id="CartItemInfo"]')
-      .pause(2000)
+      //.assert.elementPresent(addToCartBtn)
+    client.waitForElementVisible(addToCartBtn, 2000, false, function (result) {
+      if (result.value) {
+        console.log("Element present in stock")
+        client.click('//*[@id="WMItemAddToCartBtn"]')
+              .pause(5000)
+              .assert.elementPresent('//*[@id="PACViewCartBtn"]')
+              .click('//*[@id="PACViewCartBtn"]')
+              .pause(2000)
+              .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
+              .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
+              .assert.elementPresent('//*[@id="CartItemInfo"]')
+              .pause(2000)
+      }else{
+        console.log("Element not present in stock")
+      }
+    });   
   },
 
   'part four': function(client){
@@ -81,17 +96,27 @@ module.exports = {
       .useXpath()
       .click(dvdLink)
       .pause(2000)
-      .assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
-      .click('//*[@id="WMItemAddToCartBtn"]')
-      .pause(5000)
-      .assert.elementPresent('//*[@id="PACViewCartBtn"]')
-      .click('//*[@id="PACViewCartBtn"]')
-      .pause(2000)
-      .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
-      .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
-      .assert.elementPresent('//*[@id="CartItemInfo"]')
-      .pause(2000)
+
+      //.assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
+
+      client.waitForElementVisible('//*[@id="WMItemAddToCartBtn"]', 2000, false, function (result) {
+      if (result.value) {
+        console.log("Element present in stock")
+        client.click('//*[@id="WMItemAddToCartBtn"]')
+              .pause(5000)
+              .assert.elementPresent('//*[@id="PACViewCartBtn"]')
+              .click('//*[@id="PACViewCartBtn"]')
+              .pause(2000)
+              .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
+              .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
+              .assert.elementPresent('//*[@id="CartItemInfo"]')
+              .pause(2000)
+      }else{
+        console.log("Element not present in stock")
+      }
+    });   
   },
+
 
    'part five': function(client){
     var iPhoneLink = '//*[@id="tile-container"]/div[1]/div/div/h4/a';
@@ -107,20 +132,28 @@ module.exports = {
       .waitForElementPresent(phoneColor,5000)
       .click(phoneColor)
       .pause(2000)
-      .assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
-      .click('//*[@id="WMItemAddToCartBtn"]')
-      .pause(5000)
-      .assert.elementPresent('//*[@id="PACViewCartBtn"]')
-      .click('//*[@id="PACViewCartBtn"]')
-      .pause(2000)
-      .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
-      .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
-      .assert.elementPresent('//*[@id="CartItemInfo"]')
-      .pause(2000)
-    },
+      //.assert.elsementPresent('//*[@id="WMItemAddToCartBtn"]')
+      client.waitForElementVisible('//*[@id="WMItemAddToCartBtn"]', 2000, false, function (result) {
+      if (result.value) {
+        console.log("Element present in stock")
+        client.click('//*[@id="WMItemAddToCartBtn"]')
+              .pause(5000)
+              .assert.elementPresent('//*[@id="PACViewCartBtn"]')
+              .click('//*[@id="PACViewCartBtn"]')
+              .pause(2000)
+              .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
+              .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
+              .assert.elementPresent('//*[@id="CartItemInfo"]')
+              .pause(2000)
+      }else{
+        console.log("Element not present in stock")
+      }
+    });   
+  },
 
     'part six': function(client){
     var toysLink = '//*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img';
+
     client
       .useCss()
       .setValue('input[type=text]',[data.keywords.toys,client.Keys.ENTER])
@@ -128,19 +161,27 @@ module.exports = {
       .useXpath()
       .click(toysLink)
       .pause(2000)
-      .assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
-      .click('//*[@id="WMItemAddToCartBtn"]')
-      .pause(5000)
-      .assert.elementPresent('//*[@id="PACViewCartBtn"]')
-      .click('//*[@id="PACViewCartBtn"]')
-      .pause(2000)
-      .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
-      .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
-      .assert.elementPresent('//*[@id="CartItemInfo"]')
-      .pause(2000)
-      .end();
-    }
+      //.assert.elementPresent('//*[@id="WMItemAddToCartBtn"]')
+      client.waitForElementVisible('//*[@id="WMItemAddToCartBtn"]', 2000, false, function (result) {
+      if (result.value) {
+        console.log("Element present in stock")
+        client.click('//*[@id="WMItemAddToCartBtn"]')
+              .pause(5000)
+              .assert.elementPresent('//*[@id="PACViewCartBtn"]')
+              .click('//*[@id="PACViewCartBtn"]')
+              .pause(2000)
+              .waitForElementVisible('//*[@id="CartItemInfo"]',5000)
+              .waitForElementPresent('//*[@id="CartItemInfo"]',5000)
+              .assert.elementPresent('//*[@id="CartItemInfo"]')
+              .pause(2000)
+              .end()
 
-
+    }else{
+        console.log("Element not present in stock")
+         client.end()
+      }
+   
+    });   
+}
 };
 
