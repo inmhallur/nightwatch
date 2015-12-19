@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="walmartLogin"
+    errors="0" failures="0" hostname="" id="" package="walmartLogin" skipped="0"
+    tests="2" time="0.000" timestamp="Fri, 18 Dec 2015 20:46:22 GMT">
+  
+    <testcase name="demo test walmart" time="6.505" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="part two" time="52.68" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

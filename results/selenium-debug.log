@@ -1,0 +1,272 @@
+20:57:08.088 INFO - Launching a standalone Selenium Server
+20:57:08.157 INFO - Java: Oracle Corporation 24.79-b02
+20:57:08.157 INFO - OS: Mac OS X 10.11.2 x86_64
+20:57:08.185 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+20:57:08.287 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+20:57:08.287 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+20:57:08.287 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:57:08.287 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:57:08.408 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:57:08.408 INFO - Selenium Server is up and running
+20:57:08.802 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]])
+20:57:08.822 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]
+Starting ChromeDriver 2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b) on port 6977
+Only local connections are allowed.
+20:57:11.439 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]]
+20:57:11.461 INFO - Executing: [get: http://walmart.com/account])
+20:57:16.891 INFO - Done: [get: http://walmart.com/account]
+20:57:16.907 INFO - Executing: [find elements: By.cssSelector: body])
+20:57:16.957 INFO - Done: [find elements: By.cssSelector: body]
+20:57:18.982 INFO - Executing: [find element: By.cssSelector: input[id=login-username]])
+20:57:19.005 INFO - Done: [find element: By.cssSelector: input[id=login-username]]
+20:57:19.010 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[id=login-username]], [s, n, e, h, a, s, a, r, a, n, 7, 0, 0, @, g, m, a, i, l, ., c, o, m]])
+20:57:19.165 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[id=login-username]], [s, n, e, h, a, s, a, r, a, n, 7, 0, 0, @, g, m, a, i, l, ., c, o, m]]
+20:57:20.178 INFO - Executing: [find element: By.cssSelector: input[id=login-password]])
+20:57:20.199 INFO - Done: [find element: By.cssSelector: input[id=login-password]]
+20:57:20.204 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[id=login-password]], [s, n, e, h, a, 1, 2, 3]])
+20:57:20.280 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[id=login-password]], [s, n, e, h, a, 1, 2, 3]]
+20:57:20.286 INFO - Executing: [find element: By.xpath: /html/body/div[2]/section/section[4]/div/div/div/div/div/div/div/form/div/button])
+20:57:20.307 INFO - Done: [find element: By.xpath: /html/body/div[2]/section/section[4]/div/div/div/div/div/div/div/form/div/button]
+20:57:20.313 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div/div/div/div/div/div/form/div/button]])
+20:57:20.394 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div/div/div/div/div/div/form/div/button]]
+20:57:25.405 INFO - Executing: [find element: By.cssSelector: h1])
+20:57:25.435 INFO - Done: [find element: By.cssSelector: h1]
+20:57:25.440 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: h1]])
+20:57:25.470 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: h1]]
+20:57:28.489 INFO - Executing: [find elements: By.cssSelector: input[type=text]])
+20:57:28.515 INFO - Done: [find elements: By.cssSelector: input[type=text]]
+20:57:28.522 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]]])
+20:57:28.542 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]]]
+20:57:28.551 INFO - Executing: [find elements: By.cssSelector: input[type=text]])
+20:57:28.571 INFO - Done: [find elements: By.cssSelector: input[type=text]]
+20:57:28.578 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+20:57:28.595 INFO - Done: [find element: By.cssSelector: input[type=text]]
+20:57:28.601 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [t, v, ]])
+20:57:33.188 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [t, v, ]]
+20:57:35.202 INFO - Executing: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a])
+20:57:42.481 INFO - Done: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]
+20:57:42.487 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]])
+20:57:53.995 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]]
+20:57:59.006 INFO - Executing: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+20:57:59.066 INFO - Done: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+20:57:59.075 INFO - Executing: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+20:57:59.135 INFO - Done: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+20:57:59.139 INFO - Executing: [click: 8 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]])
+20:57:59.330 INFO - Done: [click: 8 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]]
+20:58:04.337 INFO - Executing: [find elements: By.xpath: //*[@id="PACViewCartBtn"]])
+20:58:04.386 INFO - Done: [find elements: By.xpath: //*[@id="PACViewCartBtn"]]
+20:58:04.391 INFO - Executing: [find element: By.xpath: //*[@id="PACViewCartBtn"]])
+20:58:04.432 INFO - Done: [find element: By.xpath: //*[@id="PACViewCartBtn"]]
+20:58:04.437 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]])
+20:58:06.601 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]]
+20:58:08.616 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+20:58:08.648 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+20:58:08.652 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]])
+20:58:08.674 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]]
+20:58:08.680 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+20:58:08.707 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+20:58:08.713 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+20:58:08.735 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+20:58:10.754 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+20:58:10.774 INFO - Done: [find element: By.cssSelector: input[type=text]]
+20:58:10.782 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [s, o, c, k, s, ]])
+20:59:36.742 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [s, o, c, k, s, ]]
+20:59:38.769 INFO - Executing: [find element: By.xpath: //*[@id="tile-container"]/ul/li[5]/div/a[1]/img])
+20:59:38.925 INFO - Done: [find element: By.xpath: //*[@id="tile-container"]/ul/li[5]/div/a[1]/img]
+20:59:38.929 INFO - Executing: [click: 17 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/ul/li[5]/div/a[1]/img]])
+20:59:50.784 INFO - Done: [click: 17 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/ul/li[5]/div/a[1]/img]]
+20:59:52.795 INFO - Executing: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+20:59:52.926 INFO - Done: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+20:59:52.932 INFO - Executing: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+20:59:53.090 INFO - Done: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+20:59:53.093 INFO - Executing: [click: 18 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]])
+20:59:53.294 INFO - Done: [click: 18 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]]
+20:59:58.316 INFO - Executing: [find elements: By.xpath: //*[@id="PACViewCartBtn"]])
+20:59:58.428 INFO - Done: [find elements: By.xpath: //*[@id="PACViewCartBtn"]]
+20:59:58.437 INFO - Executing: [find element: By.xpath: //*[@id="PACViewCartBtn"]])
+20:59:58.587 INFO - Done: [find element: By.xpath: //*[@id="PACViewCartBtn"]]
+20:59:58.591 INFO - Executing: [click: 19 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]])
+21:00:00.784 INFO - Done: [click: 19 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]]
+21:00:02.792 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:02.999 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:03.003 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]])
+21:00:03.029 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]]
+21:00:03.034 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:03.067 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:03.075 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:03.090 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:05.107 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+21:00:05.126 INFO - Done: [find element: By.cssSelector: input[type=text]]
+21:00:05.132 INFO - Executing: [send keys: 26 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [d, v, d, ]])
+21:00:22.515 INFO - Done: [send keys: 26 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [d, v, d, ]]
+21:00:24.541 INFO - Executing: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a])
+21:00:24.584 INFO - Done: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]
+21:00:24.588 INFO - Executing: [click: 27 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]])
+21:00:36.039 INFO - Done: [click: 27 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]]
+21:00:38.052 INFO - Executing: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+21:00:38.092 INFO - Done: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+21:00:38.096 INFO - Executing: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+21:00:38.133 INFO - Done: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+21:00:38.136 INFO - Executing: [click: 28 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]])
+21:00:38.230 INFO - Done: [click: 28 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]]
+21:00:43.237 INFO - Executing: [find elements: By.xpath: //*[@id="PACViewCartBtn"]])
+21:00:43.277 INFO - Done: [find elements: By.xpath: //*[@id="PACViewCartBtn"]]
+21:00:43.283 INFO - Executing: [find element: By.xpath: //*[@id="PACViewCartBtn"]])
+21:00:43.317 INFO - Done: [find element: By.xpath: //*[@id="PACViewCartBtn"]]
+21:00:43.321 INFO - Executing: [click: 29 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]])
+21:00:44.971 INFO - Done: [click: 29 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]]
+21:00:46.996 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:47.140 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:47.145 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]])
+21:00:47.181 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]]
+21:00:47.188 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:47.213 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:47.220 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:00:47.236 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:00:49.248 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+21:00:49.269 INFO - Done: [find element: By.cssSelector: input[type=text]]
+21:00:49.274 INFO - Executing: [send keys: 36 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [i, P, h, o, n, e, ]])
+21:00:58.423 INFO - Done: [send keys: 36 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> css selector: input[type=text]], [i, P, h, o, n, e, ]]
+21:01:00.431 INFO - Executing: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a])
+21:01:00.467 INFO - Done: [find element: By.xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]
+21:01:00.472 INFO - Executing: [click: 37 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]])
+21:01:12.791 INFO - Done: [click: 37 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="tile-container"]/div[1]/div/div/h4/a]]
+21:01:14.805 INFO - Executing: [find elements: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span])
+21:01:14.847 INFO - Done: [find elements: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]
+21:01:14.851 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]])
+21:01:14.882 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]]
+21:01:14.887 INFO - Executing: [find elements: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span])
+21:01:14.915 INFO - Done: [find elements: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]
+21:01:14.921 INFO - Executing: [find element: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span])
+21:01:14.950 INFO - Done: [find element: By.xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]
+21:01:14.954 INFO - Executing: [click: 38 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]])
+21:01:15.075 INFO - Done: [click: 38 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: /html/body/div[2]/section/section[4]/div/div[2]/div[1]/div[5]/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/span[2]/label/span]]
+21:01:17.083 INFO - Executing: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+21:01:17.118 INFO - Done: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+21:01:17.122 INFO - Executing: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+21:01:17.154 INFO - Done: [find element: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+21:01:17.158 INFO - Executing: [click: 39 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]])
+21:01:17.253 INFO - Done: [click: 39 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="WMItemAddToCartBtn"]]]
+21:01:22.263 INFO - Executing: [find elements: By.xpath: //*[@id="PACViewCartBtn"]])
+21:01:22.295 INFO - Done: [find elements: By.xpath: //*[@id="PACViewCartBtn"]]
+21:01:22.299 INFO - Executing: [find element: By.xpath: //*[@id="PACViewCartBtn"]])
+21:01:22.329 INFO - Done: [find element: By.xpath: //*[@id="PACViewCartBtn"]]
+21:01:22.332 INFO - Executing: [click: 40 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]])
+21:01:23.625 INFO - Done: [click: 40 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="PACViewCartBtn"]]]
+21:01:25.633 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:01:25.715 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:01:25.720 INFO - Executing: [is displayed: 41 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]])
+21:01:25.736 INFO - Done: [is displayed: 41 [[ChromeDriver: chrome on MAC (5b7c44ce83ff5d9f8a85c26971b6b118)] -> xpath: //*[@id="CartItemInfo"]]]
+21:01:25.741 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:01:25.766 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:01:25.772 INFO - Executing: [find elements: By.xpath: //*[@id="CartItemInfo"]])
+21:01:25.786 INFO - Done: [find elements: By.xpath: //*[@id="CartItemInfo"]]
+21:01:27.796 INFO - Executing: [delete session: 388ec09e-c85c-4ed7-a6ba-fec86247e7c3])
+21:01:28.509 INFO - Done: [delete session: 388ec09e-c85c-4ed7-a6ba-fec86247e7c3]
+21:01:28.522 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]])
+21:01:28.524 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]
+Starting ChromeDriver 2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b) on port 33072
+Only local connections are allowed.
+21:01:30.012 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Walmart Login}]]
+21:01:30.082 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+21:01:30.894 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=text]"}
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'sneha-mbp.cable.rcn.com', ip: '192.168.1.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.7.0_79'
+*** Element info: {Using=css selector, value=input[type=text]}
+Session ID: 35500a3550eef9d4b8c3c696218656dd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/l3/jn2fbq9x1mq7d8gjhklbgfzc0000gp/T/.org.chromium.Chromium.rYQUnS}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+21:01:30.903 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=text]"}
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'sneha-mbp.cable.rcn.com', ip: '192.168.1.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.7.0_79'
+*** Element info: {Using=css selector, value=input[type=text]}
+Session ID: 35500a3550eef9d4b8c3c696218656dd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/l3/jn2fbq9x1mq7d8gjhklbgfzc0000gp/T/.org.chromium.Chromium.rYQUnS}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+21:01:33.032 INFO - Executing: [find element: By.xpath: //*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img])
+21:01:33.282 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img"}
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'sneha-mbp.cable.rcn.com', ip: '192.168.1.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img}
+Session ID: 35500a3550eef9d4b8c3c696218656dd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/l3/jn2fbq9x1mq7d8gjhklbgfzc0000gp/T/.org.chromium.Chromium.rYQUnS}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+21:01:33.287 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img"}
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.11.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'sneha-mbp.cable.rcn.com', ip: '192.168.1.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.2', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//*[@id="js-category-container"]/div[1]/div[6]/div/div[2]/ol/div/div/li[2]/div/a[1]/img}
+Session ID: 35500a3550eef9d4b8c3c696218656dd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/l3/jn2fbq9x1mq7d8gjhklbgfzc0000gp/T/.org.chromium.Chromium.rYQUnS}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+21:01:35.334 INFO - Executing: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]])
+21:01:35.353 INFO - Done: [find elements: By.xpath: //*[@id="WMItemAddToCartBtn"]]
+21:01:35.358 INFO - Executing: [delete session: 3da76432-7d33-41a7-8d68-6992a41cc28c])
+21:01:35.923 INFO - Done: [delete session: 3da76432-7d33-41a7-8d68-6992a41cc28c]
